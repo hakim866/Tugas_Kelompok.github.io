@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+      margin: 0px;
+    }
+
+    .navbar {
+      width: 100%;
+      background-color: #567bfb;
+      overflow: auto;
+      position: sticky;
+      overflow: hidden;
+      top: 0;
+      position: fixed;
+      width: 100%;
+      z-index: 1;
+    }
+
+    .navbar a {
+      float: left;
+      padding: 12px;
+      color: white;
+      text-decoration: none;
+      font-size: 17px;
+    }
+
+    .navbar a:hover {
+      background-color: #000;
+    }
+
+    .active {
+      background-color: #04AA6D;
+    }
+
+    @media screen and (max-width: 500px) {
+      .navbar a {
+        float: none;
+        display: block;
+      }
+    }
+
+    .image {
+      margin: 30px;
+      padding: 30px;
+    }
+
+    iframe {
+      align-items: center;
+    }
+  </style>
+</head>
+<div class="navbar">
+  <a class="active" href="index.html"><i class="fa fa-fw fa-home"></i> Home</a>
+  <a href="image.html"><i class="fa fa-fw fa-search"></i>image</a>
+  <a href="mobil.html"><i class="fa fa-fw fa-search"></i>honda Mobile</a>
+  <a href="berita1.html"><i class="fa fa-fw fa-search"></i> artikel</a>
+  <a href="contact.html"><i class="fa fa-fw fa-envelope"></i> Alamat/Map</a>
+  <a href="berita2.html"><i class="fa fa-fw fa-user"></i>info lainnya</a>
+</div>
+
+<body>
+  <iframe
+    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3960.9585085898743!2d109.54954871431693!3d-6.895566469394514!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e6fd88ebd4d658d%3A0x8c319663560e618!2sJl.%20Desa%20Botekan%2C%20Botekan%2C%20Kec.%20Ulujami%2C%20Kabupaten%20Pemalang%2C%20Jawa%20Tengah%2052371!5e0!3m2!1sid!2sid!4v1666199275044!5m2!1sid!2sid"
+    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+    referrerpolicy="no-referrer-when-downgrade">
+  </iframe>
+
+</body>
+
+</html>
